@@ -1,5 +1,5 @@
-﻿生成启动时间为 2022/1/22 22:23:11。
-     1>项目“D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\CCFbo\CC_FBO_LIB.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2022/2/10 20:44:53。
+     1>项目“D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\CCFbo\CC_FBO_LIB.vcxproj”在节点 3 上(Build 个目标)。
      1>PreBuildEvent:
          setlocal
          cd D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\CCFbo
@@ -15,21 +15,10 @@
          :cmDone
          if %errorlevel% neq 0 goto :VCEnd
          :VCEnd
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\CCFbo" /I"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo" /I"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\CCFbo\CC_FBO_LIB_autogen\include_Release" /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtConcurrent /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtPrintSupport /I"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include" /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGL /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtWidgets /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtGui /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtCore /I"D:\Qt\Qt5.7.0\5.7\msvc2015_64\.\mkspecs\win32-msvc2015" /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGLExtensions /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D _SECURE_SCL=0 /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D __STDC_LIMIT_MACROS /D SCALAR_TYPE_FLOAT /D QT_USE_QSTRINGBUILDER /D QT_CORE_LIB /D QT_NO_DEBUG /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_OPENGLEXTENSIONS_LIB /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"CC_FBO_LIB.dir\Release\\" /Fd"CC_FBO_LIB.dir\Release\CC_FBO_LIB.pdb" /Gd /TP /errorReport:prompt "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\CCFbo\CC_FBO_LIB_autogen\mocs_compilation.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\src\ccBilateralFilter.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\src\ccFrameBufferObject.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\src\ccShader.cpp"
-         mocs_compilation.cpp
-         ccBilateralFilter.cpp
-         ccFrameBufferObject.cpp
-         ccShader.cpp
-         正在生成代码...
        Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\CCFbo\Release\CC_FBO_LIB.lib" /NOLOGO /MACHINE:X64  /machine:x64 CC_FBO_LIB.dir\Release\mocs_compilation.obj
-         CC_FBO_LIB.dir\Release\ccBilateralFilter.obj
-         CC_FBO_LIB.dir\Release\ccFrameBufferObject.obj
-         CC_FBO_LIB.dir\Release\ccShader.obj
          CC_FBO_LIB.vcxproj -> D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\CCFbo\Release\CC_FBO_LIB.lib
      1>已完成生成项目“D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\CCFbo\CC_FBO_LIB.vcxproj”(Build 个目标)的操作。
 
 已成功生成。
 
-已用时间 00:00:04.64
+已用时间 00:00:00.18

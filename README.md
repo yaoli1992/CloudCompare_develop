@@ -1,5 +1,4 @@
 CloudCompare
-============
 
 Homepage: http://www.cloudcompare.org/
 
