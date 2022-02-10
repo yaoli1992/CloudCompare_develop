@@ -1,0 +1,38 @@
+﻿生成启动时间为 2022/1/22 22:27:57。
+     1>项目“D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_glWindow\QCC_GL_LIB.vcxproj”在节点 3 上(Build 个目标)。
+     1>PreBuildEvent:
+         setlocal
+         cd D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_glWindow
+         if %errorlevel% neq 0 goto :cmEnd
+         D:
+         if %errorlevel% neq 0 goto :cmEnd
+         F:\cmake-3.15.1-win64-x64\bin\cmake.exe -E cmake_autogen D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/AutogenInfo.cmake Release
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+         AutoMoc: D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/libs/qCC_glWindow/ccGLWidget.h(0): Note: No relevant classes found. No output generated.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_glWindow" /I"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_glWindow" /I"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_glWindow\QCC_GL_LIB_autogen\include_Release" /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtPrintSupport /I"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include" /I"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include" /I"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db" /I"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\msvc" /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGL /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtWidgets /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtGui /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtCore /I"D:\Qt\Qt5.7.0\5.7\msvc2015_64\.\mkspecs\win32-msvc2015" /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtConcurrent /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGLExtensions /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D _SECURE_SCL=0 /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D __STDC_LIMIT_MACROS /D SCALAR_TYPE_FLOAT /D QT_USE_QSTRINGBUILDER /D QT_CORE_LIB /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CONCURRENT_LIB /D QT_OPENGL_LIB /D QT_OPENGLEXTENSIONS_LIB /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"QCC_GL_LIB.dir\Release\\" /Fd"QCC_GL_LIB.dir\Release\QCC_GL_LIB.pdb" /Gd /TP /errorReport:prompt "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_glWindow\QCC_GL_LIB_autogen\mocs_compilation.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_glWindow\ccGLUtils.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_glWindow\ccGLWindow.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_glWindow\ccGuiParameters.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_glWindow\ccRenderingTools.cpp"
+         mocs_compilation.cpp
+         ccGLUtils.cpp
+         ccGLWindow.cpp
+         ccGuiParameters.cpp
+         ccRenderingTools.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_glWindow\Release\QCC_GL_LIB.lib" /NOLOGO /MACHINE:X64  /machine:x64 QCC_GL_LIB.dir\Release\mocs_compilation.obj
+         QCC_GL_LIB.dir\Release\ccGLUtils.obj
+         QCC_GL_LIB.dir\Release\ccGLWindow.obj
+         QCC_GL_LIB.dir\Release\ccGuiParameters.obj
+         QCC_GL_LIB.dir\Release\ccRenderingTools.obj
+         QCC_GL_LIB.vcxproj -> D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_glWindow\Release\QCC_GL_LIB.lib
+     1>已完成生成项目“D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_glWindow\QCC_GL_LIB.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:08.78

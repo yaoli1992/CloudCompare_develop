@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io\ui_templates\globalShiftAndScaleAboutDlg.ui" />
+    <CustomBuild Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io\ui_templates\globalShiftAndScaleDlg.ui" />
+    <CustomBuild Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io\ui_templates\importDBFFieldDlg.ui" />
+    <CustomBuild Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io\ui_templates\openAsciiFileDlg.ui" />
+    <CustomBuild Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io\ui_templates\openPlyFileDlg.ui" />
+    <CustomBuild Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io\ui_templates\saveAsciiFileDlg.ui" />
+    <CustomBuild Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io\ui_templates\saveSHPFileDlg.ui" />
+    <CustomBuild Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\CMakeFiles\e0e3de1dd1c96f964eac50d03bb2802f\QCC_IO_LIB_autogen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_io\CMakeFiles\QCC_IO_LIB_autogen" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0A412ED7-CFA0-373A-BF6D-AD17CA3818CD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

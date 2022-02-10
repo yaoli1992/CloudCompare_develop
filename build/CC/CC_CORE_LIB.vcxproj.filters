@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\CC\CC_CORE_LIB_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\AutoSegmentationTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\BoundingBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\CCMiscTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\CCShareable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\ChamferDistanceTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\CloudSamplingTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\Delaunay2dMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\DgmOctree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\DgmOctreeReferenceCloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\DistanceComputationTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\ErrorFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\FastMarching.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\FastMarchingForPropagation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\GeometricalAnalysisTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\KdTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\LocalModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\ManualSegmentationTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\MeshSamplingTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\Neighbourhood.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\NormalDistribution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\NormalizedProgress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\PointProjectionTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\Polyline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\ReferenceCloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\RegistrationTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\SaitoSquaredDistanceTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\ScalarField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\ScalarFieldTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\SimpleMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\StatisticalTestingTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\TrueKdTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\WeibullDistribution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\AutoSegmentationTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\BoundingBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\CCConst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\CCCoreLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\CCCoreLibExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\CCGeom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\CCMiscTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\CCPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\CCShareable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\CCToolbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\CCTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\ChamferDistanceTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\CloudSamplingTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\ConjugateGradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\Delaunay2dMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\DgmOctree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\DgmOctreeReferenceCloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\DistanceComputationTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\ErrorFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\FastMarching.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\FastMarchingForPropagation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\Garbage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\GenericCloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\GenericDistribution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\GenericIndexedCloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\GenericIndexedCloudPersist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\GenericIndexedMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\GenericMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\GenericOctree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\GenericProgressCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\GenericTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\GeometricalAnalysisTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\Grid3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\Jacobi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\KdTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\LocalModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\ManualSegmentationTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\MathTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\MeshSamplingTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\Neighbourhood.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\NormalDistribution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\ParallelSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\PointCloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\PointCloudTpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\PointProjectionTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\Polyline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\RayAndBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\ReferenceCloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\RegistrationTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\SaitoSquaredDistanceTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\ScalarField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\ScalarFieldTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\SimpleMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\SimpleTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\SquareMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\StatisticalTestingTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\TrueKdTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include\WeibullDistribution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\src\Chi2Helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\scripts\windows\qt5.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5A04222C-4866-3528-AA0F-5A296DE87E05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{56CB0793-FA9E-3A01-BA4A-0EA0009070C0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{98A1A7F8-19EF-3E27-8C1B-54C2D0C4C8C1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ccViewer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ccViewer.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ccViewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ccViewer.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ccViewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ccViewer.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ccViewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ccViewer.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ccViewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ccViewer_autogen\include_Debug;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtPrintSupport;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\msvc;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_glWindow;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\common;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\qCC;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGL;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtWidgets;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtGui;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtCore;D:\Qt\Qt5.7.0\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtConcurrent;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CC_VIEWER;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;SCALAR_TYPE_FLOAT;QT_USE_QSTRINGBUILDER;QT_CORE_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CC_VIEWER;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;SCALAR_TYPE_FLOAT;QT_USE_QSTRINGBUILDER;QT_CORE_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ccViewer_autogen\include_Debug;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtPrintSupport;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\msvc;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_glWindow;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\common;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\qCC;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGL;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtWidgets;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtGui;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtCore;D:\Qt\Qt5.7.0\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtConcurrent;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ccViewer_autogen\include_Debug;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtPrintSupport;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\msvc;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_glWindow;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\common;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\qCC;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGL;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtWidgets;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtGui;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtCore;D:\Qt\Qt5.7.0\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtConcurrent;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\libs\CCFbo\Debug\CC_FBO_LIBd.lib;..\libs\qCC_io\Debug\QCC_IO_LIBd.lib;..\libs\qCC_glWindow\Debug\QCC_GL_LIBd.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\qtmaind.lib;..\libs\qCC_db\Debug\QCC_DB_LIBd.lib;..\libs\CCFbo\Debug\CC_FBO_LIBd.lib;..\CC\Debug\CC_CORE_LIBd.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Widgetsd.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Guid.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Concurrentd.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Cored.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\qtmaind.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5OpenGLd.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Widgetsd.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5OpenGLExtensionsd.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Guid.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Cored.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\qtmaind.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/ccViewer/Debug/ccViewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/ccViewer/Debug/ccViewer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ccViewer_autogen\include_Release;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtPrintSupport;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\msvc;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_glWindow;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\common;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\qCC;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGL;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtWidgets;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtGui;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtCore;D:\Qt\Qt5.7.0\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtConcurrent;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;CC_VIEWER;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;SCALAR_TYPE_FLOAT;QT_USE_QSTRINGBUILDER;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;CC_VIEWER;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;SCALAR_TYPE_FLOAT;QT_USE_QSTRINGBUILDER;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ccViewer_autogen\include_Release;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtPrintSupport;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\msvc;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_glWindow;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\common;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\qCC;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGL;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtWidgets;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtGui;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtCore;D:\Qt\Qt5.7.0\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtConcurrent;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ccViewer_autogen\include_Release;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtPrintSupport;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\msvc;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_glWindow;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\common;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\qCC;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGL;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtWidgets;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtGui;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtCore;D:\Qt\Qt5.7.0\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtConcurrent;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\libs\CCFbo\Release\CC_FBO_LIB.lib;..\libs\qCC_io\Release\QCC_IO_LIB.lib;..\libs\qCC_glWindow\Release\QCC_GL_LIB.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\qtmain.lib;..\libs\qCC_db\Release\QCC_DB_LIB.lib;..\libs\CCFbo\Release\CC_FBO_LIB.lib;..\CC\Release\CC_CORE_LIB.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Widgets.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Gui.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Concurrent.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Core.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\qtmain.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5OpenGL.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Widgets.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5OpenGLExtensions.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Gui.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Core.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\qtmain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/ccViewer/Release/ccViewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/ccViewer/Release/ccViewer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ccViewer_autogen\include_MinSizeRel;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtPrintSupport;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\msvc;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_glWindow;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\common;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\qCC;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGL;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtWidgets;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtGui;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtCore;D:\Qt\Qt5.7.0\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtConcurrent;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CC_VIEWER;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;SCALAR_TYPE_FLOAT;QT_USE_QSTRINGBUILDER;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CC_VIEWER;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;SCALAR_TYPE_FLOAT;QT_USE_QSTRINGBUILDER;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ccViewer_autogen\include_MinSizeRel;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtPrintSupport;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\msvc;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_glWindow;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\common;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\qCC;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGL;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtWidgets;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtGui;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtCore;D:\Qt\Qt5.7.0\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtConcurrent;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ccViewer_autogen\include_MinSizeRel;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtPrintSupport;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\msvc;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_glWindow;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\common;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\qCC;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGL;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtWidgets;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtGui;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtCore;D:\Qt\Qt5.7.0\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtConcurrent;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\libs\CCFbo\MinSizeRel\CC_FBO_LIB.lib;..\libs\qCC_io\MinSizeRel\QCC_IO_LIB.lib;..\libs\qCC_glWindow\MinSizeRel\QCC_GL_LIB.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\qtmain.lib;..\libs\qCC_db\MinSizeRel\QCC_DB_LIB.lib;..\libs\CCFbo\MinSizeRel\CC_FBO_LIB.lib;..\CC\MinSizeRel\CC_CORE_LIB.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Widgets.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Gui.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Concurrent.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Core.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\qtmain.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5OpenGL.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Widgets.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5OpenGLExtensions.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Gui.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Core.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\qtmain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/ccViewer/MinSizeRel/ccViewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/ccViewer/MinSizeRel/ccViewer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ccViewer_autogen\include_RelWithDebInfo;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtPrintSupport;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\msvc;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_glWindow;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\common;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\qCC;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGL;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtWidgets;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtGui;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtCore;D:\Qt\Qt5.7.0\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtConcurrent;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CC_VIEWER;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;SCALAR_TYPE_FLOAT;QT_USE_QSTRINGBUILDER;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CC_VIEWER;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;SCALAR_TYPE_FLOAT;QT_USE_QSTRINGBUILDER;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ccViewer_autogen\include_RelWithDebInfo;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtPrintSupport;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\msvc;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_glWindow;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\common;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\qCC;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGL;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtWidgets;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtGui;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtCore;D:\Qt\Qt5.7.0\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtConcurrent;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ccViewer_autogen\include_RelWithDebInfo;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtPrintSupport;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\msvc;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_io;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_glWindow;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\common;D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\..\qCC;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGL;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtWidgets;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtGui;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtCore;D:\Qt\Qt5.7.0\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtConcurrent;D:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\libs\CCFbo\RelWithDebInfo\CC_FBO_LIB.lib;..\libs\qCC_io\RelWithDebInfo\QCC_IO_LIB.lib;..\libs\qCC_glWindow\RelWithDebInfo\QCC_GL_LIB.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\qtmain.lib;..\libs\qCC_db\RelWithDebInfo\QCC_DB_LIB.lib;..\libs\CCFbo\RelWithDebInfo\CC_FBO_LIB.lib;..\CC\RelWithDebInfo\CC_CORE_LIB.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Widgets.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Gui.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Concurrent.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Core.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\qtmain.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5OpenGL.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Widgets.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5OpenGLExtensions.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Gui.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Core.lib;D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\qtmain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/ccViewer/RelWithDebInfo/ccViewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/ccViewer/RelWithDebInfo/ccViewer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/ccViewer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\cmake-3.15.1-win64-x64\bin\cmake.exe -SD:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop -BD:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build --check-stamp-file D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/ccViewer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\cmake\CMakePolicies.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/ccViewer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\cmake-3.15.1-win64-x64\bin\cmake.exe -SD:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop -BD:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build --check-stamp-file D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/ccViewer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\cmake\CMakePolicies.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/ccViewer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+F:\cmake-3.15.1-win64-x64\bin\cmake.exe -SD:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop -BD:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build --check-stamp-file D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/ccViewer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\cmake\CMakePolicies.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/ccViewer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+F:\cmake-3.15.1-win64-x64\bin\cmake.exe -SD:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop -BD:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build --check-stamp-file D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/ccViewer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\cmake\CMakePolicies.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ccViewer_autogen\mocs_compilation.cpp" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\ccViewerApplication.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\ccviewer.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\ccviewerlog.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccApplicationBase.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccCameraParamEditDlg.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccDisplayOptionsDlg.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccOptions.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccOverlayDialog.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccPickingListener.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccPickingHub.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccPickOneElementDlg.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccPluginManager.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccStereoModeDlg.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccQtHelpers.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccTranslationManager.h" />
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\ccViewerApplication.cpp" />
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\ccviewer.cpp" />
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\main.cpp" />
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccApplicationBase.cpp" />
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccCameraParamEditDlg.cpp" />
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccDisplayOptionsDlg.cpp" />
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccOptions.cpp" />
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccOverlayDialog.cpp" />
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccPickingHub.cpp" />
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccPickOneElementDlg.cpp" />
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccPluginManager.cpp" />
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccStereoModeDlg.cpp" />
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\common\ccTranslationManager.cpp" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ui_ccviewer.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ui_ccviewerAbout.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ui_cameraParamDlg.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ui_displayOptionsDlg.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ui_pickOneElementDlg.h" />
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ui_stereoModeDlg.h" />
+    <ResourceCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\ccViewer\images\icon\cc_viewer_icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ZERO_CHECK.vcxproj">
+      <Project>{AB1D7F6D-A83A-3F6D-86D1-5AEC0A736CA0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\CC\CC_CORE_LIB.vcxproj">
+      <Project>{406E5A18-90D1-3ADD-8A18-FF99401623E5}</Project>
+      <Name>CC_CORE_LIB</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\CCFbo\CC_FBO_LIB.vcxproj">
+      <Project>{3378C82B-8212-393C-8A95-31B80261B6FA}</Project>
+      <Name>CC_FBO_LIB</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_db\QCC_DB_LIB.vcxproj">
+      <Project>{E3F09F6E-CA86-3C8E-B201-D58DFF60CBBF}</Project>
+      <Name>QCC_DB_LIB</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_glWindow\QCC_GL_LIB.vcxproj">
+      <Project>{FDD3EF86-9011-367B-8AB6-7AC4A3137413}</Project>
+      <Name>QCC_GL_LIB</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_io\QCC_IO_LIB.vcxproj">
+      <Project>{E08F3351-4B2E-361D-8C9C-7F343637E7C0}</Project>
+      <Name>QCC_IO_LIB</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ccViewer_autogen.vcxproj">
+      <Project>{9C0CE139-46C3-3893-9C9B-6AD791270C27}</Project>
+      <Name>ccViewer_autogen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

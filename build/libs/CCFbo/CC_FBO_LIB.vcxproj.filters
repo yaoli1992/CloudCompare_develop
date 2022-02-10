@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\CCFbo\CC_FBO_LIB_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\src\ccBilateralFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\src\ccFrameBufferObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\src\ccShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include\ccBilateralFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include\ccFrameBufferObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include\ccGlFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include\ccShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5A04222C-4866-3528-AA0F-5A296DE87E05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{56CB0793-FA9E-3A01-BA4A-0EA0009070C0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

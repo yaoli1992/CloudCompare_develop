@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/cmake/CMakePolicies.cmake
+D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/plugins/CMakePluginTpl.cmake
+D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/plugins/core/IO/qCoreIO/CMakeLists.txt
+D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/plugins/core/IO/qCoreIO/qCoreIO.qrc

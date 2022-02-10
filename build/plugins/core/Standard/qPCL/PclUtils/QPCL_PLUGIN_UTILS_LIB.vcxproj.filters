@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\plugins\core\Standard\qPCL\PclUtils\QPCL_PLUGIN_UTILS_LIB_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\BaseFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\ExtractSIFT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\MLSSmoothingUpsampling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\NormalEstimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\StatisticalOutliersRemover.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\dialogs\MLSDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\dialogs\NormalEstimationDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\dialogs\SIFTExtractDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\dialogs\StatisticalOutliersRemoverDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\utils\cc2sm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\utils\copy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\utils\sm2cc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\BaseFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\ExtractSIFT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\MLSSmoothingUpsampling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\NormalEstimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\StatisticalOutliersRemover.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\dialogs\MLSDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\dialogs\NormalEstimationDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\dialogs\SIFTExtractDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\filters\dialogs\StatisticalOutliersRemoverDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\utils\PCLCloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\utils\PCLConv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\utils\cc2sm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\utils\copy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\utils\my_point_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\utils\sm2cc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\plugins\core\Standard\qPCL\PclUtils\ui_MLSDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\plugins\core\Standard\qPCL\PclUtils\ui_NormalEstimationDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\plugins\core\Standard\qPCL\PclUtils\ui_SIFTExtractDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\plugins\core\Standard\qPCL\PclUtils\ui_StatisticalOutliersRemoverDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\plugins\core\Standard\qPCL\PclUtils\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5A04222C-4866-3528-AA0F-5A296DE87E05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{56CB0793-FA9E-3A01-BA4A-0EA0009070C0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

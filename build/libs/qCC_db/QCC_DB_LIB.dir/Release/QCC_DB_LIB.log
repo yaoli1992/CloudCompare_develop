@@ -1,0 +1,159 @@
+﻿生成启动时间为 2022/1/22 22:26:19。
+     1>项目“D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_db\QCC_DB_LIB.vcxproj”在节点 2 上(Build 个目标)。
+     1>PreBuildEvent:
+         setlocal
+         cd D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_db
+         if %errorlevel% neq 0 goto :cmEnd
+         D:
+         if %errorlevel% neq 0 goto :cmEnd
+         F:\cmake-3.15.1-win64-x64\bin\cmake.exe -E cmake_autogen D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/libs/qCC_db/CMakeFiles/QCC_DB_LIB_autogen.dir/AutogenInfo.cmake Release
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_db" /I"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db" /I"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_db\QCC_DB_LIB_autogen\include_Release" /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtPrintSupport /I"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\CC\include" /I"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\CCFbo\include" /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGL /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtWidgets /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtGui /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtCore /I"D:\Qt\Qt5.7.0\5.7\msvc2015_64\.\mkspecs\win32-msvc2015" /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtConcurrent /ID:\Qt\Qt5.7.0\5.7\msvc2015_64\include\QtOpenGLExtensions /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D _SECURE_SCL=0 /D QCC_DB_LIBRARY_BUILD /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D __STDC_LIMIT_MACROS /D SCALAR_TYPE_FLOAT /D QT_USE_QSTRINGBUILDER /D QT_CORE_LIB /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CONCURRENT_LIB /D QT_OPENGL_LIB /D QT_OPENGLEXTENSIONS_LIB /D "CMAKE_INTDIR=\"Release\"" /D QCC_DB_LIB_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"QCC_DB_LIB.dir\Release\\" /Fd"QCC_DB_LIB.dir\Release\vc140.pdb" /Gd /TP /errorReport:prompt "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_db\QCC_DB_LIB_autogen\mocs_compilation.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\cc2DLabel.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\cc2DViewportLabel.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\cc2DViewportObject.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccAdvancedTypes.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccBBox.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccBox.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccCameraSensor.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccClipBox.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccColorRampShader.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccColorScale.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccColorScalesManager.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccColorTypes.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccCone.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccCylinder.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccDepthBuffer.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccDish.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccDrawableObject.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccExternalFactory.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccExtru.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccFacet.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccFastMarchingForNormsDirection.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccGBLSensor.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccGenericGLDisplay.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccGenericMesh.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccGenericPointCloud.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccGenericPrimitive.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccGriddedTools.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccHObject.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccHObjectCaster.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccImage.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccIndexedTransformation.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccIndexedTransformationBuffer.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccKdTree.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccLog.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccMaterial.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccMaterialSet.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccMesh.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccMeshGroup.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccMinimumSpanningTreeForNormsDirection.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccNormalCompressor.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccNormalVectors.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccObject.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccOctree.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccOctreeProxy.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccOctreeSpinBox.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccPlanarEntityInterface.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccPlane.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccPointCloud.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccPointCloudInterpolator.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccPointCloudLOD.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccPolyline.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccProgressDialog.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccQuadric.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccRasterGrid.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccScalarField.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccSensor.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccShiftedObject.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccSphere.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccSubMesh.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccTorus.cpp" "D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\libs\qCC_db\ccWaveform.cpp"
+         mocs_compilation.cpp
+         cc2DLabel.cpp
+         cc2DViewportLabel.cpp
+         cc2DViewportObject.cpp
+         ccAdvancedTypes.cpp
+         ccBBox.cpp
+         ccBox.cpp
+         ccCameraSensor.cpp
+         ccClipBox.cpp
+         ccColorRampShader.cpp
+         ccColorScale.cpp
+         ccColorScalesManager.cpp
+         ccColorTypes.cpp
+         ccCone.cpp
+         ccCylinder.cpp
+         ccDepthBuffer.cpp
+         ccDish.cpp
+         ccDrawableObject.cpp
+         ccExternalFactory.cpp
+         ccExtru.cpp
+         正在生成代码...
+         正在编译...
+         ccFacet.cpp
+         ccFastMarchingForNormsDirection.cpp
+         ccGBLSensor.cpp
+         ccGenericGLDisplay.cpp
+         ccGenericMesh.cpp
+         ccGenericPointCloud.cpp
+         ccGenericPrimitive.cpp
+         ccGriddedTools.cpp
+         ccHObject.cpp
+         ccHObjectCaster.cpp
+         ccImage.cpp
+         ccIndexedTransformation.cpp
+         ccIndexedTransformationBuffer.cpp
+         ccKdTree.cpp
+         ccLog.cpp
+         ccMaterial.cpp
+         ccMaterialSet.cpp
+         ccMesh.cpp
+         ccMeshGroup.cpp
+         ccMinimumSpanningTreeForNormsDirection.cpp
+         正在生成代码...
+     1>d:\cloudcompare\cloudcompare-2.11.1\cloudcompare_develop\libs\qcc_db\ccgblsensor.cpp(290): warning C4723: 潜在的被 0 除
+         正在编译...
+         ccNormalCompressor.cpp
+         ccNormalVectors.cpp
+         ccObject.cpp
+         ccOctree.cpp
+         ccOctreeProxy.cpp
+         ccOctreeSpinBox.cpp
+         ccPlanarEntityInterface.cpp
+         ccPlane.cpp
+         ccPointCloud.cpp
+         ccPointCloudInterpolator.cpp
+         ccPointCloudLOD.cpp
+         ccPolyline.cpp
+         ccProgressDialog.cpp
+         ccQuadric.cpp
+         ccRasterGrid.cpp
+         ccScalarField.cpp
+         ccSensor.cpp
+         ccShiftedObject.cpp
+         ccSphere.cpp
+         ccSubMesh.cpp
+         正在生成代码...
+         正在编译...
+         ccTorus.cpp
+         ccWaveform.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_db\Release\QCC_DB_LIB.dll" /INCREMENTAL:NO /NOLOGO ..\..\CC\Release\CC_CORE_LIB.lib ..\CCFbo\Release\CC_FBO_LIB.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5OpenGL.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Widgets.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Gui.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Concurrent.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Core.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Widgets.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5OpenGLExtensions.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Gui.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/libs/qCC_db/Release/QCC_DB_LIB.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/libs/qCC_db/Release/QCC_DB_LIB.lib" /MACHINE:X64  /machine:x64 /DLL QCC_DB_LIB.dir\Release\mocs_compilation.obj
+         QCC_DB_LIB.dir\Release\cc2DLabel.obj
+         QCC_DB_LIB.dir\Release\cc2DViewportLabel.obj
+         QCC_DB_LIB.dir\Release\cc2DViewportObject.obj
+         QCC_DB_LIB.dir\Release\ccAdvancedTypes.obj
+         QCC_DB_LIB.dir\Release\ccBBox.obj
+         QCC_DB_LIB.dir\Release\ccBox.obj
+         QCC_DB_LIB.dir\Release\ccCameraSensor.obj
+         QCC_DB_LIB.dir\Release\ccClipBox.obj
+         QCC_DB_LIB.dir\Release\ccColorRampShader.obj
+         QCC_DB_LIB.dir\Release\ccColorScale.obj
+         QCC_DB_LIB.dir\Release\ccColorScalesManager.obj
+         QCC_DB_LIB.dir\Release\ccColorTypes.obj
+         QCC_DB_LIB.dir\Release\ccCone.obj
+         QCC_DB_LIB.dir\Release\ccCylinder.obj
+         QCC_DB_LIB.dir\Release\ccDepthBuffer.obj
+         QCC_DB_LIB.dir\Release\ccDish.obj
+         QCC_DB_LIB.dir\Release\ccDrawableObject.obj
+         QCC_DB_LIB.dir\Release\ccExternalFactory.obj
+         QCC_DB_LIB.dir\Release\ccExtru.obj
+         QCC_DB_LIB.dir\Release\ccFacet.obj
+         QCC_DB_LIB.dir\Release\ccFastMarchingForNormsDirection.obj
+         QCC_DB_LIB.dir\Release\ccGBLSensor.obj
+         QCC_DB_LIB.dir\Release\ccGenericGLDisplay.obj
+         QCC_DB_LIB.dir\Release\ccGenericMesh.obj
+         QCC_DB_LIB.dir\Release\ccGenericPointCloud.obj
+         QCC_DB_LIB.dir\Release\ccGenericPrimitive.obj
+         QCC_DB_LIB.dir\Release\ccGriddedTools.obj
+         QCC_DB_LIB.dir\Release\ccHObject.obj
+         QCC_DB_LIB.dir\Release\ccHObjectCaster.obj
+         QCC_DB_LIB.dir\Release\ccImage.obj
+         QCC_DB_LIB.dir\Release\ccIndexedTransformation.obj
+         QCC_DB_LIB.dir\Release\ccIndexedTransformationBuffer.obj
+         QCC_DB_LIB.dir\Release\ccKdTree.obj
+         QCC_DB_LIB.dir\Release\ccLog.obj
+         QCC_DB_LIB.dir\Release\ccMaterial.obj
+         QCC_DB_LIB.dir\Release\ccMaterialSet.obj
+         QCC_DB_LIB.dir\Release\ccMesh.obj
+         QCC_DB_LIB.dir\Release\ccMeshGroup.obj
+         QCC_DB_LIB.dir\Release\ccMinimumSpanningTreeForNormsDirection.obj
+         QCC_DB_LIB.dir\Release\ccNormalCompressor.obj
+         QCC_DB_LIB.dir\Release\ccNormalVectors.obj
+         QCC_DB_LIB.dir\Release\ccObject.obj
+         QCC_DB_LIB.dir\Release\ccOctree.obj
+         QCC_DB_LIB.dir\Release\ccOctreeProxy.obj
+         QCC_DB_LIB.dir\Release\ccOctreeSpinBox.obj
+         QCC_DB_LIB.dir\Release\ccPlanarEntityInterface.obj
+         QCC_DB_LIB.dir\Release\ccPlane.obj
+         QCC_DB_LIB.dir\Release\ccPointCloud.obj
+         QCC_DB_LIB.dir\Release\ccPointCloudInterpolator.obj
+         QCC_DB_LIB.dir\Release\ccPointCloudLOD.obj
+         QCC_DB_LIB.dir\Release\ccPolyline.obj
+         QCC_DB_LIB.dir\Release\ccProgressDialog.obj
+         QCC_DB_LIB.dir\Release\ccQuadric.obj
+         QCC_DB_LIB.dir\Release\ccRasterGrid.obj
+         QCC_DB_LIB.dir\Release\ccScalarField.obj
+         QCC_DB_LIB.dir\Release\ccSensor.obj
+         QCC_DB_LIB.dir\Release\ccShiftedObject.obj
+         QCC_DB_LIB.dir\Release\ccSphere.obj
+         QCC_DB_LIB.dir\Release\ccSubMesh.obj
+         QCC_DB_LIB.dir\Release\ccTorus.obj
+         QCC_DB_LIB.dir\Release\ccWaveform.obj
+           正在创建库 D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/libs/qCC_db/Release/QCC_DB_LIB.lib 和对象 D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/libs/qCC_db/Release/QCC_DB_LIB.exp
+         QCC_DB_LIB.vcxproj -> D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_db\Release\QCC_DB_LIB.dll
+     1>已完成生成项目“D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\libs\qCC_db\QCC_DB_LIB.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:01:37.36
