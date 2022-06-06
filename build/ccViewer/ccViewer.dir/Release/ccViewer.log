@@ -1,24 +1,9 @@
-﻿生成启动时间为 2022/2/10 20:48:09。
+﻿生成启动时间为 2022/2/10 21:13:44。
      1>项目“D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ccViewer.vcxproj”在节点 3 上(Build 个目标)。
      1>Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\Release\ccViewer.exe" /INCREMENTAL:NO /NOLOGO ..\libs\CCFbo\Release\CC_FBO_LIB.lib ..\libs\qCC_io\Release\QCC_IO_LIB.lib ..\libs\qCC_glWindow\Release\QCC_GL_LIB.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\qtmain.lib ..\libs\qCC_db\Release\QCC_DB_LIB.lib ..\libs\CCFbo\Release\CC_FBO_LIB.lib ..\CC\Release\CC_CORE_LIB.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Widgets.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Gui.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Concurrent.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Core.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\qtmain.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5OpenGL.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Widgets.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5OpenGLExtensions.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Gui.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\Qt5Core.lib D:\Qt\Qt5.7.0\5.7\msvc2015_64\lib\qtmain.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST:NO /PDB:"D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/ccViewer/Release/ccViewer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/cloudcompare/CloudCompare-2.11.1/CloudCompare_develop/build/ccViewer/Release/ccViewer.lib" /MACHINE:X64  /machine:x64 ccViewer.dir\Release\cc_viewer_icon.res
-         ccViewer.dir\Release\mocs_compilation.obj
-         ccViewer.dir\Release\ccViewerApplication.obj
-         ccViewer.dir\Release\ccviewer.obj
-         ccViewer.dir\Release\main.obj
-         ccViewer.dir\Release\ccApplicationBase.obj
-         ccViewer.dir\Release\ccCameraParamEditDlg.obj
-         ccViewer.dir\Release\ccDisplayOptionsDlg.obj
-         ccViewer.dir\Release\ccOptions.obj
-         ccViewer.dir\Release\ccOverlayDialog.obj
-         ccViewer.dir\Release\ccPickingHub.obj
-         ccViewer.dir\Release\ccPickOneElementDlg.obj
-         ccViewer.dir\Release\ccPluginManager.obj
-         ccViewer.dir\Release\ccStereoModeDlg.obj
-         ccViewer.dir\Release\ccTranslationManager.obj
          ccViewer.vcxproj -> D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\Release\ccViewer.exe
      1>已完成生成项目“D:\cloudcompare\CloudCompare-2.11.1\CloudCompare_develop\build\ccViewer\ccViewer.vcxproj”(Build 个目标)的操作。
 
 已成功生成。
 
-已用时间 00:00:00.64
+已用时间 00:00:00.14
